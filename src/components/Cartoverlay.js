@@ -5,8 +5,6 @@ import { connect } from "react-redux";
 import { addtocart, removefromcart } from "../redux/actions/productsActions";
 import { Link } from "react-router-dom";
 const Cartstyles = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
   .cart__main {
     z-index: 2;
     display: flex;
